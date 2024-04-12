@@ -1,8 +1,8 @@
 #!/usr/bin/python3
+"""Create a Flask application instance"""
 from flask import Flask
 
 app = Flask(__name__)
-"""Create a Flask application instance"""
 
 
 @app.route("/", strict_slashes=False)
