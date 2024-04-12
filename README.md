@@ -142,5 +142,4 @@ Usage: <class_name>.update(<_id>, <dictionary>)
 <br>
 
 ## Editors :black_nib:
-Amina Hwess <https://github.com/AminaHwess>
 Saif Chaari <https://github.com/sachihiroo/>
