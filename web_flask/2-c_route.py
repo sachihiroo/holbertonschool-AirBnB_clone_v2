@@ -18,7 +18,7 @@ def HBNB():
 
 
 @app.route("/c/<text>", strict_slashes=False)
-def HBNB(text):
+def C_(text):
     """return text .* message"""
     text = text.replace("_", " ")
     return f"C {text}"
