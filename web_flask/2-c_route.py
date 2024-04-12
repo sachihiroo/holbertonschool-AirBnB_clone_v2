@@ -21,7 +21,7 @@ def HBNB():
 def HBNB(text):
     """return text .* message"""
     text = text.replace("_", " ")
-    return "C {text}"
+    return f"C {text}"
 
 
 if __name__ == "__main__":
