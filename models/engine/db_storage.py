@@ -88,6 +88,7 @@ class DBStorage:
 
         """close the current database connection and remove the reference to it"""
         self.__session.remove()
+        
 
     def reload(self):
 

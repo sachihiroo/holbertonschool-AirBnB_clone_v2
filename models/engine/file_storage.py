@@ -41,6 +41,10 @@ class FileStorage:
                 temp[key] = val.to_dict()
             json.dump(temp, f)
 
+    def close(self):
+        """Closes and reloads the current state of storage"""
+        FileStorage.reload(self)
+
     def reload(self):
         """Loads storage dictionary from file"""
         from models.base_model import BaseModel

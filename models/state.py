@@ -17,7 +17,7 @@ class State(BaseModel, Base):
     if os.getenv("HBNB_TYPE_STORAGE") != "db":
 
     
-
+        @property
         def cities(self):
             from models import storage
             """getter attribute cities that returns the list of
