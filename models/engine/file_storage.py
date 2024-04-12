@@ -43,7 +43,7 @@ class FileStorage:
 
     def close(self):
         """Closes and reloads the current state of storage"""
-        FileStorage.reload(self)
+        self.reload()
 
     def reload(self):
         """Loads storage dictionary from file"""
